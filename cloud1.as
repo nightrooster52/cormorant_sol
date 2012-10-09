@@ -1,0 +1,1 @@
+﻿package {	import flash.display.Sprite;	public class cloud1 extends Cloud {		public function cloud1(main:Main, rainLayer:Sprite) {			super(main, rainLayer);			dark = new cloud1Dark();			dark.alpha = 0;			addChild(dark);			// constructor code		}	}}
